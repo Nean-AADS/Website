@@ -1,0 +1,93 @@
+button:disabled{opacity:.55;cursor:not-allowed}
+.review-banner{background:#eef4fc;color:#375777;border-bottom:1px solid var(--border);padding:14px 24px;text-align:center;font-size:13px}
+.page{max-width:1180px;margin:0 auto;padding:45px 30px 70px;display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:35px}
+.step{border:1px solid var(--border);border-radius:8px;margin-bottom:25px;background:white;padding:27px 30px}
+.step h2{font-size:23px;margin-bottom:10px}
+.step .lead{font-size:14px;margin-bottom:23px}
+.number{color:var(--blue);font-size:12px;letter-spacing:.08em;font-weight:bold;margin-bottom:10px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 20px}
+.field{min-width:0}
+.field.wide,.wide{grid-column:1/-1}
+label{display:block;font-size:13px;color:#263345;margin-bottom:6px}
+label>span[aria-hidden]{color:#8b2e3d}
+input,textarea,select{font:inherit;font-size:14px;width:100%;border:1px solid #cbd8ef;border-radius:5px;padding:11px 12px;color:#354257;background:#fff;min-height:44px}
+input::placeholder,textarea::placeholder{color:#8b97a9}
+textarea{resize:vertical;min-height:95px}
+input:focus,textarea:focus,select:focus{outline:2px solid #80b0ea;outline-offset:1px}
+.hint{font-size:12px;color:#6a7890;margin:12px 0}
+.checks{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;margin-bottom:10px}
+.checks label{display:flex;align-items:flex-start;gap:9px;line-height:1.5;margin:0;font-size:13px}
+.checks input{width:17px;height:17px;min-height:17px;margin:2px 0 0;flex:0 0 17px;accent-color:var(--blue)}
+fieldset{border:0;padding:0;margin:0;min-width:0}
+fieldset[hidden],[hidden]{display:none!important}
+.scope-panel{margin-top:28px;padding-top:25px;border-top:1px solid var(--border)}
+.scope-panel h3{font-size:18px;margin-bottom:17px}
+.scope-panel>p{font-size:13px;margin-bottom:17px}
+details{margin-top:22px;border-top:1px solid var(--border);padding-top:15px}
+summary{cursor:pointer;font-size:14px;font-weight:bold;color:#375777}
+details .grid{margin-top:18px}
+.aside-card{background:var(--pale);border-radius:8px;padding:25px;margin-bottom:22px}
+.aside-card h2{font-size:21px;margin-bottom:14px}
+.aside-card h3{font-size:16px;margin-bottom:10px}
+.aside-card p,.aside-card li{font-size:13px;line-height:1.8}
+.aside-card ul{padding-left:18px;margin:12px 0 0;color:var(--text)}
+.aside-card .promise{margin-bottom:17px}
+.aside-card strong{color:var(--blue)}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.review-box{border:1px solid #bad2ed;background:#f4f8fd;border-radius:8px;padding:25px;margin-top:22px}
+.review-box h3{font-size:20px;margin-bottom:15px}
+.review-box dl{margin:0;display:grid;grid-template-columns:1fr 2fr;gap:10px 18px;font-size:13px}
+.review-box dt{font-weight:bold}
+.review-box dd{margin:0;color:var(--text);white-space:pre-wrap;overflow-wrap:anywhere}
+.review-note{font-size:12px;margin-top:17px}
+.success-note{background:#eef4fc;padding:15px;border-radius:6px;margin-top:18px;font-size:13px}
+.tag{display:inline-block;font-size:12px;color:#1b69b9;background:#eff5fe;border-radius:20px;padding:4px 11px;margin-bottom:14px}
+.sticky{position:sticky;top:24px}
+.required-note{font-size:12px;margin-bottom:19px}
+.form-intro{max-width:1180px;margin:0 auto;padding:28px 30px 0;display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:13px}
+.form-intro span{color:#6a7890}
+.file-error{font-size:13px;color:#9b243b;margin-top:9px}
+.file-list{font-size:12px;color:#596479;margin-top:8px;padding-left:18px}
+@media(max-width:900px){.page{grid-template-columns:1fr}
+.sidebar{order:2}
+.sticky{position:static;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.aside-card{margin-bottom:0}
+.trust-card{display:none}
+}
+@media(max-width:600px){.page{padding:25px 20px 40px;gap:20px}
+.grid,.checks{grid-template-columns:1fr}
+.wide,.field.wide{grid-column:auto}
+.step{padding:23px 20px}
+.step h2{font-size:21px}
+.sticky{display:block}
+.aside-card{margin-bottom:16px}
+.aside-card:nth-child(2){display:none}
+.form-intro{padding:24px 20px 0;align-items:flex-start}
+.form-intro span{display:none}
+.review-box dl{grid-template-columns:1fr;gap:3px}
+.review-box dd{margin-bottom:12px}
+.review-box{padding:20px}
+.actions .button{width:100%}
+.review-banner{font-size:12px;text-align:left;padding:13px 20px}
+}
+
+/* Keep the approved form typography within the shared site shell. */
+#order-form label{font-size:13px}#order-form input,#order-form textarea,#order-form select{font-size:14px}#order-form .actions .button{width:auto;margin:0;font-size:14px}.order-page .review-banner{margin-top:0}.order-page .page{width:100%}
+@media(max-width:600px){#order-form .actions .button{width:100%}.order-page .page{padding:25px 20px 40px}}
+
+/* ORDER SUPPORT LABEL START */
+.inside-hero p.order-support-label{font-size:15px;font-weight:600;line-height:1.65;letter-spacing:.06em}
+@media(max-width:720px){.inside-hero p.order-support-label{font-size:13px;line-height:1.7;letter-spacing:.04em}}
+/* ORDER SUPPORT LABEL END */
+
+/* CRIMINAL INDIVIDUAL DETAILS START */
+.criminal-intake{border-top:1px solid var(--border);margin-top:24px;padding-top:20px}
+.criminal-toggle{display:flex;align-items:flex-start;gap:10px;font-size:15px;font-weight:600;line-height:1.6}
+.criminal-toggle input{width:18px;height:18px;min-height:18px;flex:0 0 18px;margin:3px 0 0;accent-color:#1334A6}
+.criminal-subjects{margin-top:18px;padding:18px;border:1px solid #D2DDF6;border-radius:8px;background:#F6F8FC}
+.criminal-subjects>legend{padding:0 6px;font-size:16px;font-weight:700;color:#1E295A}
+.criminal-subject{margin:0 0 18px;padding:14px 0 18px;border-bottom:1px solid #DDE5F0}
+.criminal-subject>legend{font-size:14px;font-weight:700;color:#1E295A}
+.criminal-remove{font:inherit;font-size:13px;font-weight:600;color:#1334A6;border:1px solid #BCC9E1;border-radius:5px;background:#fff;min-height:44px;padding:8px 12px;margin-top:12px;cursor:pointer}
+@media(max-width:720px){.criminal-subject .grid{grid-template-columns:1fr}.criminal-subjects{padding:16px 12px}}
+/* CRIMINAL INDIVIDUAL DETAILS END */

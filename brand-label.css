@@ -1,0 +1,4 @@
+/* Shared identity label; scope excludes article dates and other overlines. */
+.aads-brand-label,.inside-hero .aads-brand-label,.home-light .brand-strip .aads-brand-label,.home-light .hero .aads-brand-label{font-size:15px!important;font-weight:600;line-height:1.65;letter-spacing:.06em;text-decoration:none;color:#1E295A}
+.inside-top .aads-brand-label,.home-light .brand-strip .aads-brand-label{color:#fff}
+@media(max-width:720px){.aads-brand-label,.inside-hero .aads-brand-label,.home-light .brand-strip .aads-brand-label,.home-light .hero .aads-brand-label{font-size:13px!important;line-height:1.7;letter-spacing:.04em}}

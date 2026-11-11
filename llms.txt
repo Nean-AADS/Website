@@ -1,0 +1,62 @@
+# AADS — Public Records Intelligence Center
+
+> All American Document Services, LLC, established 2002. Public-record research, corporate and property records, filings and international-document support.
+
+## Company
+- [About AADS](https://aads.com/about-aads.html)
+- [Intelligence Center](https://aads.com/intelligence-center.html)
+
+## Services
+- [UCC, Lien & Litigation Research](https://aads.com/ucc-lien-research.html)
+- [Real Estate Title & Municipal Lien Research](https://aads.com/title-municipal-research.html)
+- [Corporate Documents, Filings & Registered Agent Support](https://aads.com/corporate-documents-filings.html)
+- [Apostille, Authentication & Legalization](https://aads.com/apostille-legalization.html)
+
+- [OFAC & Sanctions Searches](https://aads.com/ofac-sanctions-searches.html)
+- [Registered Agent Services](https://aads.com/registered-agent-services.html)
+
+## Request-preparation guides
+- [How to Prepare a Multistate UCC and Lien Search Request](https://aads.com/guide-ucc-search-scope.html)
+- [Title Search and Municipal Research: What Should the Request Include?](https://aads.com/guide-municipal-research-scope.html)
+- [Certificate of Good Standing, Online Status & Certified Copies: What to Order](https://aads.com/guide-good-standing-certified-copy.html)
+- [What to Provide Before Requesting an Apostille or Authentication](https://aads.com/guide-apostille-request-checklist.html)
+
+- [UCC Filing Acknowledgment or Search to Reflect: What to Request](https://aads.com/guide-ucc-search-to-reflect.html)
+- [Choosing a Property Research Report: Owner, Vesting, Mortgage or Defined-Depth Search](https://aads.com/guide-property-report-options.html)
+- [Zoning Letters, Certificates of Occupancy and Permit Copies: Preparing Your Request](https://aads.com/guide-zoning-permit-records.html)
+- [OFAC Potential Matches: Preparing the Search and Reviewing the Record](https://aads.com/guide-ofac-potential-matches.html)
+
+## Limits
+Guides identify official sources and date checked. Examples are jurisdiction-specific. Records services do not provide legal or title opinions. LienPulse is a development direction, not a launched subscription service.
+
+## Packages, FAQs and blog
+- [Packages](https://aads.com/#packages)
+- [Frequently Asked Questions](https://aads.com/faq.html)
+- [AADS Blog & Insights](https://aads.com/blog.html)
+
+Archive posts preserve original publication dates and historical text with AADS branding.
+
+## Order requests
+- [Place an Order](https://aads.com/place-an-order.html)
+The order page supports preparing and reviewing a request. Submission and attachments are not received until the receiving service is connected and tested.
+
+## Buyer support, court research, state guides and glossary
+- [Civil, Criminal & Bankruptcy Court Research](https://aads.com/court-litigation-bankruptcy.html)
+- [Public-Record Support for Law Firms](https://aads.com/for-law-firms.html)
+- [Public-Record Research for Lending Teams](https://aads.com/for-lenders.html)
+- [Property Research for Title & Settlement Teams](https://aads.com/for-title-settlement-teams.html)
+- [Official Entity Records for Accountants & CPAs](https://aads.com/for-accountants-cpas.html)
+- [Florida Public-Record Research: UCC, Property and Municipal Requests](https://aads.com/guide-florida-public-records.html)
+- [Washington Public-Record Research: UCC, Entity and County Sources](https://aads.com/guide-washington-public-records.html)
+- [Georgia Public-Record Research: UCC, Recorded Liens and Court Sources](https://aads.com/guide-georgia-public-records.html)
+- [North Carolina Public-Record Research: UCC, Deeds and Court Records](https://aads.com/guide-north-carolina-public-records.html)
+- [Public Records Glossary](https://aads.com/glossary.html)
+
+## UCC filings and monitoring
+- [UCC Filing & Continuation Services](https://aads.com/ucc-filing-continuations.html)
+- [UCC & Lien Monitoring — discuss scope and availability](https://aads.com/ucc-lien-monitoring.html)
+<!-- STATE HUB START -->
+## Nationwide state guidance
+
+- [50-State Research and Filing Guides](https://aads.com/state-guides.html): Source-linked request guidance for all 50 states, with official UCC and court-resource links.
+<!-- STATE HUB END -->
