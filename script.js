@@ -25,7 +25,6 @@ let inquiryToken=crypto.randomUUID?crypto.randomUUID():Date.now().toString(36)+'
 form.addEventListener('submit',async e=>{
   e.preventDefault();if(sendingInquiry)return;status.hidden=false;
   if(!enabled){status.textContent='This form is not connected. No inquiry has been sent or saved.';return;}
-  if(form.elements['bot-field'].value){status.textContent='Unable to send this inquiry.';return;}
   if(contact.mode==='netlify'&&location.protocol==='file:'){status.textContent='Netlify submissions must be tested on the deployed Netlify site.';return;}
   sendingInquiry=true;submit.disabled=true;submit.textContent='Sending…';status.textContent='';
   try{
@@ -40,7 +39,7 @@ form.addEventListener('submit',async e=>{
       status.textContent='Thank you. Your inquiry has been received.';
     }
     form.reset();inquiryToken=crypto.randomUUID?crypto.randomUUID():Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);
-  }catch(error){status.textContent='Your inquiry could not be confirmed. Your entered details remain in this form.';}
+  }catch(error){status.textContent=(error&&error.message&&contact.mode==='endpoint')?error.message:'Your inquiry could not be confirmed. Your entered details remain in this form.';if(error&&error.field)form.dispatchEvent(new CustomEvent('aads:server-field-error',{detail:{field:error.field,message:error.message}}));}
   finally{sendingInquiry=false;submit.disabled=false;submit.textContent='Send Your Request';}
 });
 
