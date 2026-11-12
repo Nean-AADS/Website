@@ -44,7 +44,7 @@
     form.querySelectorAll('input:not([type=hidden]):not([type=file]):not([type=checkbox]):not([type=radio]):not([type=date]),textarea').forEach(f=>{
       if(f.maxLength>0)return;f.maxLength=f.tagName==='TEXTAREA'?5000:(limits[f.name]||(/^criminal-subject-\d+-name$/.test(f.name)?120:500));
     });
-    form.querySelectorAll('input[type=tel]').forEach(f=>{if(!f.pattern)f.pattern='[0-9+()\\-. xXextEXT]{7,40}'});
+    form.querySelectorAll('input[type=tel]').forEach(f=>{if(!f.pattern)f.pattern='[0-9 +.xXetEXT\\(\\)\\-]{7,40}'});
 
     // Inline messages: shown when the browser flags a field, cleared as soon as it is fixed.
     form.addEventListener('invalid',e=>{show(e.target,message(e.target));},true);
